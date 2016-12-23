@@ -1,0 +1,111 @@
+.blue-circles {
+	background: url('../images/blue-faded-circles.png') no-repeat;
+	.header-image {
+		border-radius: 50%;
+		width: 100%;
+		height: auto;
+	}
+}
+.first {
+	margin-top: -100px;
+	.circle {
+		width: 520px;
+		height: 520px;
+		border-radius: 50%;
+		&.story {
+			background: rgba(255,147,0,0.9);
+			margin-top: -260px;
+			z-index: 2;
+    		position: relative;
+
+		}
+		&.culture {
+			background: rgba(238,212,129, 0.9);
+			margin-top: -360px;
+			margin-left: -10px;
+		}
+		&.join {
+			background: rgba(85,162, 203, 0.9);
+			margin-top: -130px;
+			margin-left: -70px;
+			position: relative;
+			z-index: 1;
+		}
+	}
+}
+.second {
+	.welcome {
+		height: 800px;
+		width: 800px;
+		border-radius: 50%;
+		background: rgba(213,61,27,1);
+		margin-left: -215px;
+		margin-top: -170px;
+		position: relative;
+		z-index: 1;
+	}
+	.welcome-image {
+		border-radius: 50%;
+		margin-top: -150px;
+	    margin-left: -200px;
+	    position: relative;
+	    z-index: 0;
+	}
+}
+.third {
+	.culture-and-values {
+		width: 390px;
+		height: 390px;
+		background: rgba(238,212,129,0.7);
+		border-radius: 50%;
+		float: right;
+	    margin-right: 45px;
+	    margin-top: -40px;
+	}
+	.our-story {
+		height: 750px;
+		width: 750px;
+		border-radius: 50%;
+		background: rgba(242,144,58,0.7);
+		margin-top: -270px;
+    	margin-left: -60px;
+    	position: relative;
+    	z-index: 1;
+	}
+}
+.fourth, .fifth {
+	.culture-image {
+		border-radius: 50%;
+		margin-top: -200px;
+		position: relative;
+    	z-index: 0;
+
+    	&2 {
+	    	border-radius: 50%;
+			margin-left: -350px;
+			margin-top: -340px;
+		    position: relative;
+		    z-index: 0;
+    	}
+	}
+	.yellow {
+		width: 390px;
+		height: 390px;
+		background: rgba(238,212,129,0.7);
+		border-radius: 50%;
+		&.family {
+			margin-top: -110px;
+    		margin-left: 80px;
+    		position: relative;
+    		z-index: 1;
+		}
+		&.passion {
+			margin-left: -100px;
+    		margin-top: 100px;
+		}
+		&.love {
+			margin-top: -250px;
+    		margin-left: 30px;
+		}
+	}
+}

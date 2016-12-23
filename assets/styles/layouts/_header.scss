@@ -1,0 +1,41 @@
+header {
+	height: 66px;
+	position: fixed;
+    background: rgba(255,255,255, 0.7);
+    width: 100%;
+    z-index: 999;
+    .logo {
+		width: 112px;
+		height: 60px;
+	}
+	.nav-primary {
+		display: inline-block;
+		float: right;
+		padding: 29px 0px 17px 0px;
+		.menu-main-menu-container {
+			ul {
+				li {
+					float: left;
+					padding: 0px 20px;
+					border-right: 2px solid #4b89b5;
+					&:last-child {
+						border-right: 0px;
+					}
+					a {
+						text-transform: uppercase;
+						color: #4b89b5;
+						font-weight: bold;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: 1.15;
+						letter-spacing: 2px;
+						font-size: 20px;
+						&:hover {
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

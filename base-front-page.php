@@ -59,7 +59,7 @@ use Roots\Sage\Wrapper;
           </div>
       </div>
     </div>
-    <div class="orange-circles">
+    <div class="yellow-circles">
       <div class="container-fluid">
         <div class="row second">
           <div class="col-md-6">
@@ -76,10 +76,6 @@ use Roots\Sage\Wrapper;
           <img class="reveal welcome-image" src="<?= get_template_directory_uri() . '/dist/images/img-welcome.jpg' ?>">
           </div>
         </div>
-      </div>
-    </div>
-    <div class="yellow-circles">
-      <div class="container-fluid">
         <div class="row third">
           <div class="col-md-6">
             <div class="reveal culture-and-values">
@@ -132,6 +128,12 @@ use Roots\Sage\Wrapper;
                 <img src="<?= get_template_directory_uri() . '/dist/images/icon-love.svg' ?>">
                   <h1>Love</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="reveal contact-form">
+              <div class="content">
               </div>
             </div>
           </div>

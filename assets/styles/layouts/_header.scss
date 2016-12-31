@@ -1,18 +1,18 @@
 header {
-	height: 66px;
+	height: 100px;
 	position: fixed;
     background: rgba(255,255,255, 0.7);
     width: 100%;
     z-index: 999;
     .logo {
-		width: 112px;
-		height: 60px;
+		width: auto;
+		height: 80px;
+		margin-top: 10px;
 	}
-	.nav-primary {
-		display: inline-block;
-		float: right;
-		padding: 23px 0px 17px 0px;
+	.navbar {
 		.menu-main-menu-container {
+			float: right;
+			padding: 38px 0px;
 			ul {
 				li {
 					float: left;
@@ -37,5 +37,38 @@ header {
 				}
 			}
 		}
+		.collapsing .menu-main-menu-container {
+			display: none;
+		}
+		.collapse.in {
+			.menu-main-menu-container {
+				padding: 0px;
+				margin-top: -4px;
+				width: 100%;
+				background: rgba(255,255,255,0.7);
+				ul li {
+					float: none;
+					border: 0;
+					text-align: center;
+    				padding: 10px 0px;
+				}
+			}
+		}
 	}
+	.navbar {
+		padding: 0;
+	}
+	.navbar-toggler {
+		float: right;
+	    padding: 35px;
+	    font-size: 2rem;
+	}
+	.navbar-brand,
+	.navbar-nav .nav-item {
+		display: block;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+
 }

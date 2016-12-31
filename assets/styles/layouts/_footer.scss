@@ -1,7 +1,7 @@
 footer {
 	position: relative;
 	z-index: 1;
-	margin-top: -300px;
+	margin-top: -150px;
 	.nav-primary {
 		display: block;
 		padding: 30px 0px 36px 0px;
@@ -9,7 +9,11 @@ footer {
 			ul {
 				li {
 					float: left;
-					padding: 0px 45px;
+					padding: 0px 69px;
+					@media screen and (max-width: 1200px) {
+						float: none;
+						text-align: center;
+					}
 					a {
 						text-transform: uppercase;
 						color: #4d4d4f;
@@ -18,7 +22,7 @@ footer {
 						font-stretch: normal;
 						line-height: 1.15;
 						letter-spacing: 2px;
-						font-size: 20px;
+						font-size: 18px;
 						&:hover {
 							text-decoration: none;
 						}
@@ -27,19 +31,32 @@ footer {
 			}
 		}
 	}
+	.social-icons {
+		display: block;
+		height: 40px;
+		width: 120px;
+		margin: 30px auto;
+
+		img {
+			height: 40px;
+			width: auto;
+			display: inline-block;
+			margin-left: 10px;
+		}
+	}
 	.menu {
 		background: #e4edf4;
 		p {
 			color: #4d4d4f;
 			text-align: center;
 			margin-bottom: 0px;
-			font-size: 16px;
+			font-size: 14px;
 			text-transform: uppercase;
 			line-height: 1.44;
 			letter-spacing: 3.2px;
 			padding-bottom: 25px;
 			&.charity {
-				font-size: 14px;
+				font-size: 12px;
 				line-height: 1.64;
 				letter-spacing: 2.8px;
 				font-weight: 300;
@@ -52,9 +69,38 @@ footer {
 		p {
 			color: #fff;
 			text-align: center;
-			font-size: 18px;
+			font-size: 16px;
 			line-height: 2.31;
 			margin-bottom: 0px;
+		}
+	}
+
+	.whats-on {
+		padding: 30px 0px;
+		h1 {
+			text-align: center;
+			font-weight: 600;
+	    	font-size: 36px;
+	    	color: #4b89b5;
+		}
+
+		p {
+			text-transform: none;
+			letter-spacing: normal;
+		}
+
+		.event {
+			display: block;
+			margin: 0 auto;
+			background: #fff;
+
+			.description {
+				padding: 30px;
+			}
+
+			img {
+				width: 100%;
+			}
 		}
 	}
 }

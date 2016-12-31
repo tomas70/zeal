@@ -1,3 +1,14 @@
 body {
 	font-family: Myriad Pro;
 }
+
+.body-wrapper {
+	overflow-x: hidden;
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height:150px; /* fixed header height*/
+  margin:-150px 0 0; /* negative fixed header height */
+}

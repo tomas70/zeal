@@ -8,6 +8,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.4",
-    "scrollreveal": "^3.3.2"
+    "scrollreveal": "^3.3.2",
+    "jquery.stellar": "^0.6.2",
+    "modaal": "^0.3.1"
   }
 }
